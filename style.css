@@ -6,19 +6,21 @@
   font-weight: bold;
 }
 body {
-  background-color: bisque;
+  /* background-color: bisque; */
+  background-color: rgb(233, 130, 5);
 }
 .main {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  /* background-color: bisque; */
 }
 .main-container {
-  width: 22.5rem;
-  height: 80vh;
+  /* width: 22.5rem; */
+  width: 24vw;
+  /* height: 80vh; */
+  height: 38vw;
   margin: auto;
-  padding: 1rem 0rem;
+  padding: 1vw 0vw;
   border-radius: 0.8rem;
   background-color: black;
 }
@@ -30,8 +32,8 @@ body {
 .heading {
   text-align: center;
   color: white;
-  font-size: 3rem;
-  margin: 0.25rem;
+  font-size: 3.3vw;
+  margin: 0.25vw;
 }
 .input {
   display: flex;
@@ -39,25 +41,25 @@ body {
 }
 .inputfield {
   text-align: end;
-  font-size: 2rem;
-  width: 19rem;
+  font-size: 2vw;
+  width: 20vw;
   /* height: 10vh; */
-  padding: 0rem 0.3rem;
-  margin: 1rem 0.25rem;
+  padding: 0vw 0.3vw;
+  margin: 1vw 0.25vw;
   background-color: white;
   color: black;
-  border: 0rem;
+  border: 0vw;
   outline: none;
   border-radius: 0.5rem;
 }
 .button {
   color: white;
-  font-size: 2rem;
-  width: 4.5rem;
-  height: 4.5rem;
+  font-size: 2vw;
+  width: 4.5vw;
+  height: 4.5vw;
   /* height: 9.5vh; */
-  margin: 0.25rem;
-  border: 0rem;
+  margin: 0.4vw;
+  border: 0vw;
   border-radius: 2.5rem;
   cursor: pointer;
 }
@@ -71,16 +73,17 @@ body {
 .orange {
   background-color: rgb(233, 130, 5);
 }
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
   body {
     background-color: black;
   }
   .main-container {
+    position: fixed;
     width: 540px;
     height: 100vh;
     margin: auto;
-    padding: 1rem 0rem;
+    padding: 1vw 0vw;
     border-radius: 0rem;
     background-color: black;
   }
-}
+} */
